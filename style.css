@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 100px;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 40px;
+  font-family: 'unbounded';
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul a:hover {
+  color: crimson;
+  text-shadow: 2px 2px 10px crimson;
+  transition: all 0.5s;
+}
+.sign {
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.sign:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+/* HERO ALANI */
+
+.hero {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero img {
+  max-width: 500px;
+}
+.hero-text {
+  max-width: 700px;
+}
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'unbounded';
+}
+.ozel-yazi {
+  color: crimson;
+}
+.hero-text p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+/* KUTUCUKLAR */
+
+.boxes {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.box:hover {
+  transform: translate(10px, -10px);
+  transition: all 0.5s;
+}
+.box {
+  background-color: black;
+  color: white;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.icon {
+  width: 50px;
+}
+.box-text {
+  width: 250px;
+  text-align: center;
+}
+
+/* REKLAM ALANI */
+
+.ad {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  color: black;
+  max-width: 500px;
+}
+.text h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(0, 0, 92);
+}
+.text > p {
+  font-size: 20px;
+}
+
+/* BİZE ULAŞIN */
+
+.container {
+  background-color: gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 150px auto;
+}
+.container > p {
+  max-width: 500px;
+  text-align: justify;
+}
+.container > button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5;
+}
+
+.container button:hover {
+  background-color: rgb(179, 179, 0);
+  transition: all 0.5;
+}
+
+/* KAYDOL SAYFASI*/
+.sign-container {
+  background-color: gray;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  max-width: 1000px;
+  margin: 200px auto;
+  border-radius: 50px;
+}
+.label {
+  color: white;
+  font-size: 20px;
+}
+.data {
+  width: 200px;
+  padding: 5px 10px;
+}
+.kaydol {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+.kaydol:hover {
+  background-color: crimson;
+  color: white;
+  transition: all 0.5s;
+}
+.baslik {
+  font-family: 'unbounded';
+  color: crimson;
+}
